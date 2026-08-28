@@ -1,7 +1,7 @@
 import React from "react";
 
 const Project = () => {
-  // Aap apne real projects ka data yahan update kar sakte hain
+
   const projectsData = [
    
     {
