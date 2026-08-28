@@ -13,7 +13,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aap yahan EmailJS ya Backend API Integrate kar sakte hain
+    
     alert(`Thank you, ${formData.name}! Your message has been sent.`);
     setFormData({ name: "", email: "", message: "" });
   };
